@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="laele"> <!--style="height: 100vh;"-->
+        <!--<img class="bg-img" src="img/library-1147815_640.jpg" alt="" style="height: 100vh; width: 100%;"> -->
+        <nav class="menu">
+            <a class="logo" href="/">ALVZ Idiomas</a>
+            <div class="mobile-menu"></div>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+
+            <ul class="menu-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="matricula.html">Matrícula</a></li>
+                <li><a href="idiomas.html">Idiomas</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <br>
+
+
+    <section class="formul">
+
+        <form method="POST" class="formulario ">
+
+            <h2>Formulário de Interesse</h2><br>
+
+            <div class="input-box">
+                <label for="name">Nome:</label>
+                <input id="name" type="text" name="name" placeholder="Digite seu nome:" required>
+            </div>
+
+            <div class="input-box">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email:" required>
+            </div>
+
+            <div class="input-box">
+                <label for="number">Celular</label>
+                <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+            </div>
+            <br>
+
+            <div class="input-box">
+                <label for="number">Qual a idade do interessado?</label>
+                <select aria-label="Default select example">
+                    <option selected>Selecione</option>
+                    <option value="1">5 a 10 anos</option>
+                    <option value="2">10 a 15 anos</option>
+                    <option value="3">15 a 17 anos</option>
+                    <option value="3">Mais de 18 anos</option>
+                  </select>
+            </div>
+
+            <br>
+
+            <p>Deixe um Comentário:</p>
+            <textarea name="comentario" cols="50" rows="5" class="comentario"></textarea><br><br>
+
+            <section class="botao">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </section>
+
+            <br>
+
+        </form>
+    </section>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color:#23232e; color: white;">
+          © 2023 Copyright:
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+</body>
+
+</html>

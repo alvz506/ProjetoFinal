@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23232e;
+    height: 8vh;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+
+.menu ul{
+    margin-bottom: 0;
+}
+
+/*main {
+    background-color: url("img/library-1147815_640.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}*/
+#link-name {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-list {
+    list-style: none;
+    display:flex;
+
+}
+
+.menu-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    text-decoration: none;
+}
+
+.menu-list a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.card{
+    width: 50%;
+    height: 100px;
+}
+
+.bg-img{
+    position: absolute;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    background-image: url(img/library-1147815_640.jpg);
+    height: 500px;
+
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+
+}
+
+.side{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.containersup{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    
+}
+
+.cardicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+section.images img{
+    width: 340px;
+    height:320px;
+    padding: 20px 20px;
+}
+
+section.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pais2{
+    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.idiomas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.idiomas img{
+    width: 8rem;
+    border: 1px solid black;
+
+}
+
+.idiomas div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact img{
+    display: flex;
+    justify-content: space-around;
+    width: 30px;
+    margin-right: 0.75rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact div{
+    display: flex;
+    padding: 2rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin: 0.06rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box select{
+    margin: 0.06rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.form-select{
+    margin: 0.06rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+
+}
+
+.comentario{
+    margin: 0.06rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.botao input{
+    border-radius: 15px;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #23232e;
+    color: white;
+}
